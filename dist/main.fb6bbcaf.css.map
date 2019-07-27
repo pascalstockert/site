@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\style.scss"],"names":[],"mappings":"AAAA;EACC;EACA;EACA","file":"main.fb6bbcaf.css","sourceRoot":"..","sourcesContent":[".test {\r\n\tbackground-color: black; \r\n\twidth: 100vw; \r\n\theight: 90vh;\r\n}"]}
