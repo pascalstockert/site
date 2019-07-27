@@ -1,5 +1,115 @@
-.test {
-	background-color: black; 
-	width: 100vw; 
-	height: 90vh;
+:root {
+  --background: #F9F9F9;
+  --accent: #412736;
+  --accent-dark: #992B43;
+  --accent-dark-light: #C45744;
+  --accent-medium: #E38946;
+  --accent-lighter: #F5BF51;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: url(../src/fonts/SourceSansPro-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro ExtraLightLight";
+  src: url(../src/fonts/SourceSansPro-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url(../src/fonts/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+h1,h2,h3,h4,h5,h6,div,p {
+  font-family: "Source Sans Pro Light", sans-serif;
+}
+
+h1 {
+  font-family: "Source Sans Pro ExtraLightLight", sans-serif;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.wrapper {
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  height: 260px;
+  width: 1340px;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  transform: translate(-50%, -50%);
+}
+.slideCard {
+  display: flex;
+  margin-left: 20px;
+  width: 520px;
+  height: 260px;
+  background-color: var(--accent);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  .swiper-doge{
+    width: 260px;
+    height: 260px;
+    margin: 0;
+    overflow: hidden;
+    .swiper-wrapper {
+      .swiper-slide {
+        height: 100%;
+        width: 100%;
+      }
+      .swiper-slide:nth-child(1){
+        background-color: red;
+      }
+      .swiper-slide:nth-child(2){
+        background-color: green;
+      }
+      .swiper-slide:nth-child(3){
+        background-color: blue;
+      }
+      .swiper-slide:nth-child(4){
+        background-color: yellow;
+      }
+    }
+  }
+}
+.pictureCard {
+  display: flex;
+  margin-left: 20px;
+  width: 520px;
+  height: 260px;
+  background-color: var(--accent);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  .picture {
+    width: 260px;
+    height: 260px;
+    background-image: url("../src/img/joey2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+.welcomeCard {
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(ellipse at top left, rgba(65,39,54,1) 0%, rgba(153,43,67,1) 21%, rgba(196,87,68,1) 49%, rgba(227,137,70,1) 76%, rgba(245,191,81,1) 100%);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  .welcome {
+    display: inline-block;
+    color: var(--background);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+    width: 100%;
+  }
 }
