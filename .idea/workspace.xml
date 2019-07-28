@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43e88bd-461c-4ac0-bb97-d0b62181adb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/03/bf6ffcbefbd567031ca5282e97a21d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/03/bf6ffcbefbd567031ca5282e97a21d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/03/d120eaff13b7c136f50c7c2a107f99.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/03/d120eaff13b7c136f50c7c2a107f99.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/04/0bc0061a29056b6d1550fd8bd035c7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/04/0bc0061a29056b6d1550fd8bd035c7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/36/a43ae46d56edbdec6bfa7136a0b912.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/36/a43ae46d56edbdec6bfa7136a0b912.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/43/3c98c1fccb7bfc1be5471ffc3140fb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/43/3c98c1fccb7bfc1be5471ffc3140fb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/4e/c6567477d4acd8cea713801147049a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/4e/c6567477d4acd8cea713801147049a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/59/e5d5e8d67b725b7560b71a81fb75a1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/59/e5d5e8d67b725b7560b71a81fb75a1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/81/ba44816c06ba7bc836de8f1499cbac.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/81/ba44816c06ba7bc836de8f1499cbac.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/8c/2aa018b0eadd83c3b9505f3a43a2b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/8c/2aa018b0eadd83c3b9505f3a43a2b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/98/150170b169218cff1672cc87a1da23.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/98/150170b169218cff1672cc87a1da23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b4/4c4e122083340a4b809b39d13a19e6.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b4/4c4e122083340a4b809b39d13a19e6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e2/fa42bea24ca51e59bfc7a26f0ba0fb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e2/fa42bea24ca51e59bfc7a26f0ba0fb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/f2/cdaaf57bb9f87f4bcf7f8a87251f34.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f2/cdaaf57bb9f87f4bcf7f8a87251f34.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/fb/988d06aff72975308427960f063524.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fb/988d06aff72975308427960f063524.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homeMaybe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homeMaybe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/materialize.min.849e6b31.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/materialize.min.849e6b31.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/materialize.min.849e6b31.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/materialize.min.849e6b31.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/materialize.min.da1493d7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/materialize.min.da1493d7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/materialize.min.da1493d7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/materialize.min.da1493d7.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/normalize.56256789.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/normalize.56256789.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/normalize.56256789.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/normalize.56256789.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,29 +15,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="896">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            <state relative-caret-position="774">
+              <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -80,13 +52,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="-18" />
     <option name="width" value="1936" />
@@ -97,27 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="homeMaybe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homeMaybe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homeMaybe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homeMaybe" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homeMaybe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homeMaybe" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -153,12 +105,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564239363891</updated>
       <workItem from="1564239365131" duration="181000" />
-      <workItem from="1564297658581" duration="1317000" />
+      <workItem from="1564297658581" duration="3340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1498000" />
+    <option name="totallyTimeSpent" value="3521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -198,27 +150,29 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="774">
+          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="896">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
         </state>
       </provider>
     </entry>

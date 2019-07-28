@@ -206,6 +206,17 @@ var swiper = new Swiper('.swiper-doge', {
   },*/
 
 });
+var dogePics = ['/src/img/joey1', '/src/img/joey2', '/src/img/joey3', '/src/img/joey4'];
+var foodPics = ['/src/img/food1', '/src/img/food2', '/src/img/food3', '/src/img/food4', '/src/img/food5'];
+var barcePics = ['/src/img/barce1', '/src/img/barce2', '/src/img/barce3', '/src/img/barce4', '/src/img/barce5', '/src/img/barce6', '/src/img/barce7', '/src/img/barce8', '/src/img/barce9', '/src/img/barce10', '/src/img/barce11', '/src/img/barce12', '/src/img/barce13'];
+var dogeSlider = document.getElementById('doge');
+var foodSlider = document.getElementById('food');
+var barceSlider = document.getElementById('barce');
+window.alert(dogePics.length);
+
+for (var i = 0; i < dogePics.length; i++) {
+  dogeSlider.innerHTML += "<img class='swiper-slide' src='" + dogePics[i] + ".jpg'>";
+}
 },{"../scss/style.scss":"scss/style.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -234,7 +245,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53794" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59553" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
