@@ -1,8 +1,14 @@
 import '../scss/style.scss';
 
-var mySwiper = new Swiper ('.swiper-doge', {
+var swiper = new Swiper ('.swiper-doge', {
     speed: 300,
-    height: 260,
-    width: 260,
-    grabCursor: true,
-  })
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    /*navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },*/
+});
+

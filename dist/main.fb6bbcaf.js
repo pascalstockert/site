@@ -194,11 +194,17 @@ module.hot.accept(reloadCSS);
 
 require("../scss/style.scss");
 
-var mySwiper = new Swiper('.swiper-doge', {
+var swiper = new Swiper('.swiper-doge', {
   speed: 300,
-  height: 260,
-  width: 260,
-  grabCursor: true
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  }
+  /*navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },*/
+
 });
 },{"../scss/style.scss":"scss/style.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -228,7 +234,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49441" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53794" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
