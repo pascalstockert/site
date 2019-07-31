@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: url(/SourceSansPro-Light.c823371c.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro ExtraLightLight";
+  src: url(/SourceSansPro-ExtraLight.8a1a48a5.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url(/SourceSansPro-Regular.03aa5e30.ttf) format("truetype");
+}
+h1, h2, h3, h4, h5, h6, div, p {
+  font-family: "Source Sans Pro Light", sans-serif;
+}
+
+h1 {
+  font-family: "Source Sans Pro ExtraLightLight", sans-serif;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.button .material-icons {
+  font-size: 35px;
+  color: white;
+}
+
+.wrapper {
+  background-color: #F9F9F9;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.groupCenter {
+  width: 1340px;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  display: flex;
+  height: 260px;
+  width: 1340px;
+}
+.content:nth-child(2) {
+  height: 530px;
+  margin-top: 20px;
+}
+.content:nth-child(3) {
+  height: 270px;
+  width: 1060px;
+}
+.content:nth-child(4) {
+  width: 1060px;
+}
+
+.smolWrapper {
+  width: 1060px;
+  height: 540px;
+  margin-left: 20px;
+}
+
+.squareCard {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  background-color: #412736;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.squareCard:nth-child(1) {
+  margin-left: 0;
+}
+
+.infoCard {
+  width: 260px;
+  height: 530px;
+  background-color: #412736;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slideCard {
+  display: flex;
+  margin-left: 20px;
+  width: 520px;
+  height: 260px;
+  background-color: #412736;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.slideCard .carousel {
+  width: 260px;
+  height: 260px;
+  margin: 0;
+  overflow: hidden;
+}
+.slideCard .carousel .carousel-item {
+  width: auto;
+  height: 260px;
+}
+.slideCard .carousel .indicators {
+  height: 50px;
+}
+.slideCard .button-next {
+  width: 36px;
+  height: 36px;
+  background-color: #992B43;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  margin: 25% 0 0 0;
+  border-radius: 50%;
+  transform: translate(-50%, -25%);
+}
+.slideCard .button-next:hover {
+  cursor: pointer;
+}
+.slideCard:nth-child(1) {
+  margin: 0;
+}
+
+.pictureCard {
+  margin-left: 20px;
+  width: 520px;
+  height: 260px;
+  background-color: #412736;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.pictureCard .picture {
+  width: 260px;
+  height: 260px;
+  background-image: url("/joey2.e80f61de.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.welcomeCard {
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(ellipse at top left, #412736 0%, #992b43 21%, #c45744 49%, #e38946 76%, #f5bf51 100%);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.welcomeCard .welcome {
+  display: inline-block;
+  color: #F9F9F9;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 190px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=/main.fb6bbcaf.css.map */
