@@ -194,29 +194,60 @@ module.hot.accept(reloadCSS);
 
 require("../scss/style.scss");
 
-var swiper = new Swiper('.swiper-doge', {
-  speed: 300,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true
-  }
-  /*navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-  },*/
-
-});
-var dogePics = ['/src/img/joey1', '/src/img/joey2', '/src/img/joey3', '/src/img/joey4'];
-var foodPics = ['/src/img/food1', '/src/img/food2', '/src/img/food3', '/src/img/food4', '/src/img/food5'];
-var barcePics = ['/src/img/barce1', '/src/img/barce2', '/src/img/barce3', '/src/img/barce4', '/src/img/barce5', '/src/img/barce6', '/src/img/barce7', '/src/img/barce8', '/src/img/barce9', '/src/img/barce10', '/src/img/barce11', '/src/img/barce12', '/src/img/barce13'];
-var dogeSlider = document.getElementById('doge');
-var foodSlider = document.getElementById('food');
-var barceSlider = document.getElementById('barce');
-window.alert(dogePics.length);
+var dogePics = ['/src/img/joey1.jpg', '/src/img/joey2.jpg', '/src/img/joey3.jpg', '/src/img/joey4.jpg'];
+var foodPics = ['/src/img/food_1.jpg', '/src/img/food_2.jpg', '/src/img/food_3.jpg', '/src/img/food_4.jpg', '/src/img/food_5.jpg'];
+var barcePics = ['/src/img/barce_1.jpg', '/src/img/barce_2.jpg', '/src/img/barce_3.jpg', '/src/img/barce_4.jpg', '/src/img/barce_5.jpg', '/src/img/barce_6_1.jpg', '/src/img/barce_6_2.jpg', '/src/img/barce_6_3.jpg', '/src/img/barce_7.jpg', '/src/img/barce_8.jpg', '/src/img/barce_9.jpg', '/src/img/barce_10.jpg', '/src/img/barce_11.jpg', '/src/img/barce_12.jpg', '/src/img/barce_13.jpg'];
+var dogeSlider = document.getElementById('carouselDoge');
+var foodSlider = document.getElementById('carouselFood');
+var barceSlider = document.getElementById('carouselBarce');
 
 for (var i = 0; i < dogePics.length; i++) {
-  dogeSlider.innerHTML += "<img class='swiper-slide' src='" + dogePics[i] + ".jpg'>";
+  dogeSlider.innerHTML += '<img class="carousel-item" src="' + dogePics[i] + '">';
 }
+
+for (var i = 0; i < foodPics.length; i++) {
+  foodSlider.innerHTML += '<img class="carousel-item" src="' + foodPics[i] + '">';
+}
+
+for (var i = 0; i < barcePics.length; i++) {
+  barceSlider.innerHTML += '<img class="carousel-item" src="' + barcePics[i] + '">';
+}
+
+$(document).ready(function () {
+  $('#carouselDoge').carousel({
+    duration: 300,
+    fullWidth: true,
+    indicators: true,
+    numVisible: 1,
+    dist: 0,
+    noWrap: true
+  });
+  $('#carouselFood').carousel({
+    duration: 300,
+    fullWidth: true,
+    indicators: true,
+    numVisible: 1,
+    dist: 0,
+    noWrap: true
+  });
+  $('#carouselBarce').carousel({
+    duration: 300,
+    fullWidth: true,
+    indicators: true,
+    numVisible: 1,
+    dist: 0,
+    noWrap: true
+  });
+});
+$('#nextDoge').click(function () {
+  $('#carouselDoge').carousel('next');
+});
+$('#nextFood').click(function () {
+  $('#carouselFood').carousel('next');
+});
+$('#nextBarce').click(function () {
+  $('#carouselBarce').carousel('next');
+});
 },{"../scss/style.scss":"scss/style.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -245,7 +276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59553" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49465" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

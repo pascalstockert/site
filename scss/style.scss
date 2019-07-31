@@ -33,6 +33,13 @@ h1 {
   font-weight: 100;
 }
 
+.button {
+  .material-icons {
+    font-size: 35px;
+    color: white;
+  }
+}
+
 .wrapper {
   background-color: $background;
   width: 100vw;
@@ -85,21 +92,35 @@ h1 {
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
 }
 .slideCard {
+  display: flex;
   margin-left: 20px;
   width: 520px;
   height: 260px;
   background-color: $accent;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
-  .swiper-doge{
+  .carousel{
     width: 260px;
     height: 260px;
     margin: 0;
     overflow: hidden;
-    .swiper-wrapper {
-      .swiper-slide {
-        height: 100%;
-        width: 100%;
-      }
+    .carousel-item {
+      width: auto;
+      height: 260px;
+    }
+    .indicators {
+      height: 50px;
+    }
+  }
+  .button-next {
+    width: 36px;
+    height: 36px;
+    background-color: $accent-dark;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    margin: 25% 0 0 0;
+    border-radius: 50%;
+    transform: translate(-50%, -25%);
+    &:hover {
+      cursor: pointer;
     }
   }
   &:nth-child(1){
