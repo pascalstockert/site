@@ -17,6 +17,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6, div, p {
   font-family: "Source Sans Pro Light", sans-serif;
+  color: white;
 }
 
 h1 {
@@ -108,6 +109,15 @@ h1 {
 .slideCard .carousel .indicators {
   height: 50px;
 }
+.slideCard .carousel .indicators .indicator-item {
+  height: 5px;
+  width: 5px;
+}
+.slideCard .carousel .indicators .active {
+  height: 7px;
+  width: 7px;
+  transform: translateY(1px);
+}
 .slideCard .button-next {
   width: 36px;
   height: 36px;
@@ -125,13 +135,14 @@ h1 {
 }
 
 .pictureCard {
+  display: flex;
   margin-left: 20px;
   width: 520px;
   height: 260px;
   background-color: #412736;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
-.pictureCard .picture {
+.pictureCard img {
   width: 260px;
   height: 260px;
   background-image: url("/joey2.e80f61de.jpg");
@@ -153,6 +164,22 @@ h1 {
   vertical-align: middle;
   line-height: 190px;
   width: 100%;
+}
+
+.containerHasButton {
+  margin: 0 0 0 -35px;
+}
+
+.textContainer {
+  width: 242px;
+}
+.textContainer h5 {
+  font-weight: 500;
+  margin: 18px 0 0 18px;
+}
+.textContainer p {
+  font-size: 14px;
+  margin: 10px 0 0 18px;
 }
 
 /*# sourceMappingURL=/main.fb6bbcaf.css.map */
