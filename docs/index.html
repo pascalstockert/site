@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <title>Homepage</title>
-    <link rel="stylesheet" type="text/css" href="/normalize.56256789.css">
-    <link rel="stylesheet" type="text/css" href="/materialize.min.da1493d7.css">
+    <link rel="stylesheet" type="text/css" href='./node_modules/normalize.css/normalize.css'>
+    <link rel="stylesheet" type="text/css" href='./node_modules/materialize-css/dist/css/materialize.min.css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
-<script src="/normalize.56256789.js"></script><script src="/materialize.min.da1493d7.js"></script><link rel="stylesheet" href="/main.fb6bbcaf.css"></head>
+    <link rel="stylesheet" type="text/css" href='./scss/style.css'>
+</head>
 <body>
 
 
@@ -19,8 +19,11 @@
 			</div>
 
 			<div class="pictureCard">
-		  	<div class="picture"></div>
-			  <div class="card"></div>
+		  	<img src="./src/img/joey2.jpg">
+		  	<div class="textContainer">
+		  		<h5 class="cardHeader">Hello there!</h5>
+		  		<p class="cardText">This is my little place in the web, occupying storage with pictures of le cute doge.<br><br>If you are here for more information about me, Pascal, you've come to the right place!</p>
+	  		</div>
 	  	</div>
 
 	  	<div class="slideCard">
@@ -28,6 +31,10 @@
 	  			<!-- pics inserted -->
 	  		</div>
 	  		<div class="button button-next waves-effect" id="nextDoge"><i class="material-icons">chevron_right</i></div>
+	  		<div class="textContainer containerHasButton">
+		  		<h5 class="cardHeader">Enjoy some cuteness</h5>
+		  		<p class="cardText">Why should I keep all that cuteness to myself? Imma share it with everyone!<br><br>Here are some of the nicest pics that I have taken over the past few years.<br><br>Enjoy the fluffness!</p>
+	  		</div>
 	  	</div>
 
 	  </div>
@@ -50,12 +57,20 @@
 			  			<!-- pics inserted -->
 	  				</div>
 	  				<div class="button button-next waves-effect" id="nextFood"><i class="material-icons">chevron_right</i></div>
+	  				<div class="textContainer containerHasButton">
+				  		<h5 class="cardHeader">Enjoy some exquisite food</h5>
+				  		<p class="cardText">Who doesn't love some nice, tasty, fresh food?<br>If you ever come to Düsseldorf I can only recommend visiting "Okiini" and "What's Beef". Most of the pictures are from there, and they always make me hungry looking at them..</p>
+	  				</div>
 		  		</div>
 		  		<div class="slideCard">
 		  			<div class="carousel" id="carouselBarce">
 			  			<!-- pics inserted -->
 	  				</div>
 	  				<div class="button button-next waves-effect" id="nextBarce"><i class="material-icons">chevron_right</i></div>
+						<div class="textContainer containerHasButton">
+				  		<h5 class="cardHeader">Barcelona 2018</h5>
+				  		<p class="cardText">2018 my class and I had an educational excursion to Barcelona, Spain. Obviously, because we were exemplary students, we did absolutely nothing but studying the culture and language.<br><br>At least that's what I remember...</p>
+	  				</div>
 		  		</div>
 				</div>
 
@@ -67,8 +82,8 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
-<script type="text/javascript" src="/materialize.min.849e6b31.js"></script>
-<script type="text/javascript" src="/main.fb6bbcaf.js"></script>
+<script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 </html>
