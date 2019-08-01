@@ -25,6 +25,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,div,p {
   font-family: "Source Sans Pro Light", sans-serif;
+  color: white;
 }
 
 h1 {
@@ -109,6 +110,15 @@ h1 {
     }
     .indicators {
       height: 50px;
+      .indicator-item {
+        height: 5px;
+        width: 5px;
+      }
+      .active {
+        height: 7px;
+        width: 7px;
+        transform: translateY(1px);
+      }
     }
   }
   .button-next {
@@ -128,12 +138,13 @@ h1 {
   }
 }
 .pictureCard {
+  display: flex;
   margin-left: 20px;
   width: 520px;
   height: 260px;
   background-color: $accent;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
-  .picture {
+  img {
     width: 260px;
     height: 260px;
     background-image: url("../src/img/joey2.jpg");
@@ -154,5 +165,20 @@ h1 {
     vertical-align: middle;
     line-height: 190px;
     width: 100%;
+  }
+}
+
+.containerHasButton {
+  margin: 0 0 0 -35px;
+}
+.textContainer {
+  width: 242px;
+  h5 {
+    font-weight: 500;
+    margin: 18px 0 0 18px;
+  }
+  p {
+    font-size: 14px;
+    margin: 10px 0 0 18px;
   }
 }

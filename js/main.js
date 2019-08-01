@@ -28,24 +28,27 @@ $(document).ready(function(){
     dist: 0,
     noWrap: true,
   });
-  $('#carouselFood').carousel(
-  {
-  	duration: 300,
-    fullWidth: true,
-    indicators: true,
-    numVisible: 1,
-    dist: 0,
-    noWrap: true,
-  });
-  $('#carouselBarce').carousel(
-  {
-  	duration: 300,
-    fullWidth: true,
-    indicators: true,
-    numVisible: 1,
-    dist: 0,
-    noWrap: true,
-  });
+  setTimeout(function(){
+  	$('#carouselFood').carousel(
+	  {
+	  	duration: 300,
+	    fullWidth: true,
+	    indicators: true,
+	    numVisible: 1,
+	    dist: 0,
+	    noWrap: true,
+	  });
+
+    $('#carouselBarce').carousel(
+    {
+      duration: 300,
+      fullWidth: true,
+      indicators: true,
+      numVisible: 1,
+      dist: 0,
+      noWrap: true,
+    });
+  }, 100);
 });
 
 $('#nextDoge').click(function() {
