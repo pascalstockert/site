@@ -59,15 +59,15 @@ h1, h2, h3, h4, h5, h6, div, p {
 
 h1 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
-  font-size: 45px;
+  font-size: 3rem  !important;
   font-weight: 100;
 }
 
 h2 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
-  font-size: 45px;
-  padding: 0;
-  margin: 0;
+  font-size: 3rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .button .material-icons {
