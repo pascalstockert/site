@@ -5,7 +5,6 @@
     <link rel="stylesheet" type="text/css" href='/node_modules/normalize.css/normalize.css'>
     <link rel="stylesheet" type="text/css" href='/node_modules/materialize-css/dist/css/materialize.min.css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"/>
 </head>
 <body>
 
@@ -14,28 +13,28 @@
 	<div class="groupCenter">
 	  <div class="content">
 
-	    <div class="welcomeCard">
-	  		<h1 class="welcome">WELCOME</h1>
+		    <div class="welcomeCard">
+		  		<h1 class="welcome">WELCOME</h1>
 			</div>
 
 			<div class="pictureCard">
-		  	<img src="./src/img/joey2.jpg">
-		  	<div class="textContainer">
-		  		<h5 class="cardHeader">Hello there!</h5>
-		  		<p class="cardText">This is my little place in the web, occupying storage with pictures of le cute doge.<br><br>If you are here for more information about me, Pascal, you've come to the right place!</p>
-	  		</div>
-	  	</div>
+			  	<img src="./src/img/joey2.jpg">
+			  	<div class="textContainer">
+			  		<h5 class="cardHeader">Hello there!</h5>
+			  		<p class="cardText">This is my little place in the web, occupying storage with pictures of le cute doge.<br><br>If you are here for more information about me, Pascal, you've come to the right place!</p>
+		  		</div>
+		  	</div>
 
-	  	<div class="slideCard">
-	  		<div class="carousel" id="carouselDoge">
-	  			<!-- pics inserted -->
-	  		</div>
-	  		<div class="button button-next waves-effect" id="nextDoge"><i class="material-icons">chevron_right</i></div>
-	  		<div class="textContainer containerHasButton">
-		  		<h5 class="cardHeader">Enjoy some cuteness</h5>
-		  		<p class="cardText">Why should I keep all that cuteness to myself? Imma share it with everyone!<br><br>Here are some of the nicest pics that I have taken over the past few years.<br><br>Enjoy the fluffness!</p>
-	  		</div>
-	  	</div>
+		  	<div class="slideCard">
+		  		<div class="carousel" id="carouselDoge">
+		  			<!-- pics inserted -->
+		  		</div>
+		  		<div class="button button-next waves-effect" id="nextDoge"><i class="material-icons">chevron_right</i></div>
+		  		<div class="textContainer containerHasButton">
+			  		<h5 class="cardHeader">Enjoy some cuteness</h5>
+			  		<p class="cardText">Why should I keep all that cuteness to myself? Imma share it with everyone!<br><br>Here are some of the nicest pics that I have taken over the past few years.<br><br>Enjoy the fluffness!</p>
+		  		</div>
+		  	</div>
 
 	  </div>
 
@@ -45,10 +44,70 @@
 			</div>
 			<div class="smolWrapper">
 				<div class="content" style="width: 1060px; height: 270px;">
-					<div class="squareCard"></div>
-					<div class="squareCard"></div>
-					<div class="squareCard"></div>
-					<div class="squareCard"></div>
+					<div class="squareCard">
+						<div class="bar color-accent"></div>
+						<div class="bar color-accent-dark indent-1"></div>
+						<div class="bar color-accent-dark-light indent-2"></div>
+						<div class="bar color-accent-dark indent-1"></div>
+						<div class="bar color-accent"></div>
+						<div class="bar color-accent-medium vert-center"></div>
+						<h2 class="abs-center">HTML</h2>
+						<div class="hover" id="html"></div>
+					</div>
+					<div class="squareCard">
+						<div class="bar color-accent"></div>
+						<div class="bar color-accent-dark"></div>
+						<div class="bar color-accent-dark-light"></div>
+						<div class="bar color-accent-medium"></div>
+						<div class="bar color-accent-lighter"></div>
+						<h2 class="abs-center">SASS</h2>
+						<div class="hover" id="sass"></div>
+					</div>
+					<div class="squareCard">
+						<div class="cube-row">
+							<div class="cube color-accent"></div>
+							<div class="cube color-accent-dark"></div>
+							<div class="cube color-accent-lighter"></div>
+							<div class="cube color-accent-dark-light"></div>
+							<div class="cube color-accent-dark"></div>
+						</div>
+						<div class="cube-row">
+							<div class="cube color-accent-dark-light"></div>
+							<div class="cube color-accent-medium"></div>
+							<div class="cube color-accent"></div>
+							<div class="cube color-accent-medium"></div>
+							<div class="cube color-accent"></div>
+						</div>
+						<div class="cube-row">
+							<div class="cube color-accent-dark"></div>
+							<div class="cube color-accent"></div>
+							<div class="cube color-accent-dark"></div>
+							<div class="cube color-accent"></div>
+							<div class="cube color-accent-dark-light"></div>
+						</div>
+						<div class="cube-row">
+							<div class="cube color-accent-dark-light"></div>
+							<div class="cube color-accent-medium"></div>
+							<div class="cube color-accent-"></div>
+							<div class="cube color-accent-dark-light"></div>
+							<div class="cube color-accent-medium"></div>
+						</div>
+						<div class="cube-row">
+							<div class="cube color-accent-dark"></div>
+							<div class="cube color-accent"></div>
+							<div class="cube color-accent-dark"></div>
+							<div class="cube color-accent-lighter"></div>
+							<div class="cube color-accent-dark-light"></div>
+						</div>
+						<h2 class="abs-center">JS</h2>
+						<div class="hover" id="js"></div>
+					</div>
+					<div class="squareCard">
+						<div class="bar color-accent"></div>
+						<div class="bar color-accent-dark"></div>
+						<h2 class="abs-center">Angular</h2>
+						<div class="hover" id="angular"></div>
+					</div>
 				</div>
 
 				<div class="content" style="width: 1060px; height: 260px; margin: 0;">
@@ -81,7 +140,6 @@
 </div> 
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
 <script type="text/javascript" src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 
