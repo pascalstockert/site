@@ -1,3 +1,40 @@
+.color-accent {
+  background-color: #412736;
+}
+
+.color-accent-dark {
+  background-color: #992B43;
+}
+
+.color-accent-dark-light {
+  background-color: #C45744;
+}
+
+.color-accent-medium {
+  background-color: #E38946;
+}
+
+.color-accent-lighter {
+  background-color: #F5BF51;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.abs-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vert-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +61,13 @@ h1 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
   font-size: 45px;
   font-weight: 100;
+}
+
+h2 {
+  font-family: "Source Sans Pro ExtraLightLight", sans-serif;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
 }
 
 .button .material-icons {
@@ -71,14 +115,56 @@ h1 {
 }
 
 .squareCard {
+  z-index: 1;
+  position: relative;
   width: 250px;
   height: 250px;
   margin-left: 20px;
+  overflow: hidden;
   background-color: #412736;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
+.squareCard .hover {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+}
 .squareCard:nth-child(1) {
   margin-left: 0;
+}
+.squareCard:nth-child(4) {
+  display: flex;
+}
+.squareCard:nth-child(4) .bar {
+  width: 50%;
+  height: 100%;
+}
+.squareCard .bar {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+}
+.squareCard .bar.indent-1 {
+  margin-left: 50px;
+}
+.squareCard .bar.indent-2 {
+  margin-left: 100px;
+}
+.squareCard .bar:nth-child(6) {
+  z-index: -1;
+  height: 150px;
+}
+.squareCard .cube-row {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.squareCard .cube {
+  width: 50px;
+  height: 50px;
 }
 
 .infoCard {
