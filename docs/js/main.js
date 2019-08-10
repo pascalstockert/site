@@ -47,7 +47,7 @@ $(document).ready(function(){
       dist: 0,
       noWrap: true,
     });
-  }, 100);
+  }, 500);
 });
 
 $('#nextDoge').click(function() {
