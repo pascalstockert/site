@@ -19,16 +19,16 @@ for (var i = 0; i < barcePics.length; i++) {
 }
 
 $(document).ready(function(){
-  $('#carouselDoge').carousel(
-  {
-  	duration: 300,
-    fullWidth: true,
-    indicators: true,
-    numVisible: 1,
-    dist: 0,
-    noWrap: true,
-  });
   setTimeout(function(){
+    $('#carouselDoge').carousel(
+    {
+      duration: 300,
+      fullWidth: true,
+      indicators: true,
+      numVisible: 1,
+      dist: 0,
+      noWrap: true,
+    });
   	$('#carouselFood').carousel(
 	  {
 	  	duration: 300,
@@ -61,4 +61,11 @@ $('#nextFood').click(function() {
 
 $('#nextBarce').click(function() {
 	$('#carouselBarce').carousel('next');
+});
+
+const squares = document.getElementsByClassName('squareCard');
+var tHTML = false;
+
+$('#html').click(function() {
+  console.log(squares[0].childNodes);
 });

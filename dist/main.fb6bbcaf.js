@@ -214,15 +214,15 @@ for (var i = 0; i < barcePics.length; i++) {
 }
 
 $(document).ready(function () {
-  $('#carouselDoge').carousel({
-    duration: 300,
-    fullWidth: true,
-    indicators: true,
-    numVisible: 1,
-    dist: 0,
-    noWrap: true
-  });
   setTimeout(function () {
+    $('#carouselDoge').carousel({
+      duration: 300,
+      fullWidth: true,
+      indicators: true,
+      numVisible: 1,
+      dist: 0,
+      noWrap: true
+    });
     $('#carouselFood').carousel({
       duration: 300,
       fullWidth: true,
@@ -249,6 +249,11 @@ $('#nextFood').click(function () {
 });
 $('#nextBarce').click(function () {
   $('#carouselBarce').carousel('next');
+});
+var squares = document.getElementsByClassName('squareCard');
+var tHTML = false;
+$('#html').click(function () {
+  console.log(squares[0].childNodes);
 });
 },{"../scss/style.scss":"scss/style.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -278,7 +283,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64608" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50039" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
