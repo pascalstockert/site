@@ -26,16 +26,16 @@ $(document).ready(function(){
       numVisible: 1,
       dist: 0,
       noWrap: true,
-    });
-  	$('#carouselFood').carousel(
+    }, 100);
+	$('#carouselFood').carousel(
 	  {
-	  	duration: 300,
+		duration: 300,
 	    fullWidth: true,
 	    indicators: true,
 	    numVisible: 1,
 	    dist: 0,
 	    noWrap: true,
-	  });
+	  }, 100);
 
     $('#carouselBarce').carousel(
     {
