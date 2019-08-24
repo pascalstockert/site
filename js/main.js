@@ -51,6 +51,12 @@ $(document).ready(function(){
   }, 100);
 });
 
+$( window ).resize(function() {
+  $('body,html').animate({
+    scrollTop: 0
+  }, 0);
+});
+
 $('#nextDoge').click(function() {
 	$('#carouselDoge').carousel('next');
 });
