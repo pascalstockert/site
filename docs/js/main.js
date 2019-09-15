@@ -7,13 +7,13 @@ const foodSlider = document.getElementById('carouselFood');
 const barceSlider = document.getElementById('carouselBarce');
 
 for (var i = 0; i < dogePics.length; i++) {
-	dogeSlider.innerHTML += '<img class="carousel-item" src="' + dogePics[i] + '">';
+  dogeSlider.innerHTML += '<img class="carousel-item" src="' + dogePics[i] + '">';
 }
 for (var i = 0; i < foodPics.length; i++) {
-	foodSlider.innerHTML += '<img class="carousel-item" src="' + foodPics[i] + '">';
+  foodSlider.innerHTML += '<img class="carousel-item" src="' + foodPics[i] + '">';
 }
 for (var i = 0; i < barcePics.length; i++) {
-	barceSlider.innerHTML += '<img class="carousel-item" src="' + barcePics[i] + '">';
+  barceSlider.innerHTML += '<img class="carousel-item" src="' + barcePics[i] + '">';
 }
 
 $(document).ready(function(){
@@ -27,15 +27,15 @@ $(document).ready(function(){
       dist: 0,
       noWrap: true,
     }, 100);
-	$('#carouselFood').carousel(
-	  {
-		duration: 300,
-	    fullWidth: true,
-	    indicators: true,
-	    numVisible: 1,
-	    dist: 0,
-	    noWrap: true,
-	  }, 100);
+  $('#carouselFood').carousel(
+    {
+    duration: 300,
+      fullWidth: true,
+      indicators: true,
+      numVisible: 1,
+      dist: 0,
+      noWrap: true,
+    }, 100);
 
     $('#carouselBarce').carousel(
     {
@@ -56,15 +56,15 @@ $( window ).resize(function() {
 });
 
 $('#nextDoge').click(function() {
-	$('#carouselDoge').carousel('next');
+  $('#carouselDoge').carousel('next');
 });
 
 $('#nextFood').click(function() {
-	$('#carouselFood').carousel('next');
+  $('#carouselFood').carousel('next');
 });
 
 $('#nextBarce').click(function() {
-	$('#carouselBarce').carousel('next');
+  $('#carouselBarce').carousel('next');
 });
 
 const squares = document.getElementsByClassName('squareCard');

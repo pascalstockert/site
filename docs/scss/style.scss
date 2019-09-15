@@ -4,6 +4,7 @@ $large: 1379px;
 /* COLORS */
 $background: #F9F9F9;
 $accent: #271C23;
+$accent-background: rgb(60,50,50);
 $accent-dark: #992B43;
 $accent-dark-light: #C45744;
 $accent-medium: #E38946;
@@ -11,6 +12,9 @@ $accent-lighter: #F5BF51;
 
 .color-accent {
   background-color: $accent;
+}
+.color-accent-background {
+  background-color: $accent-background;
 }
 .color-accent-dark {
   background-color: $accent-dark;
@@ -58,6 +62,10 @@ $accent-lighter: #F5BF51;
 .margin-top-20 {
   margin-top: 20px;
 }
+.display-flex {
+  display: flex;
+}
+
 
 body {
   margin: 0;
@@ -89,14 +97,50 @@ h1,h2,h3,h4,h5,h6,div,p {
 
 h1 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
-  font-size: 45px;
+  font-size: 45px !important;
   font-weight: 100;
 }
 h2 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
   font-size: 45px;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
+}
+
+.background-layer {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.wave {
+  opacity: 0.6;
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  width: 4000px;
+  height: 4000px;
+  margin-left: -2000px;
+  margin-top: -3300px;
+  transform-origin: 50% 49%;
+  border-radius: 40%;
+  animation: drift 50000ms infinite linear;
+}
+.wave.-three {
+  opacity: 1;
+  height: 3900px;
+  width: 3800px;
+  border-radius: 48%;
+  animation: drift 55000ms infinite linear;
+}
+.wave.-two {
+  animation: drift 75000ms infinite linear;
+}
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
 }
 
 .button {
@@ -194,11 +238,15 @@ h2 {
   }
 }
 .infoCard {
-  width: 260px;
+  width: 250px;
   height: 530px;
   margin-top: 20px;
   background-color: $accent;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+}
+.ext {
+  margin: 0 0 0 20px !important;
+  height: 810px !important;
 }
 .slideCard {
   display: flex;
@@ -262,7 +310,7 @@ h2 {
   }
 }
 .welcomeCard {
-  width: 260px;
+  width: 250px;
   height: 260px;
   background: radial-gradient(ellipse at top left, rgba(65,39,54,1) 0%, rgba(153,43,67,1) 21%, rgba(196,87,68,1) 49%, rgba(227,137,70,1) 76%, rgba(245,191,81,1) 100%);
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
@@ -271,7 +319,7 @@ h2 {
     color: $background;
     text-align: center;
     vertical-align: middle;
-    line-height: 190px;
+    line-height: 260px;
     width: 100%;
   }
 }
@@ -291,14 +339,15 @@ h2 {
   }
 }
 
-
 ::-webkit-scrollbar {
   width: 40px;
   height: 5px;
+  background: transparent;
 }
 ::-webkit-scrollbar-button {
   width: 0px;
   height: 130px;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(50,50,50);
@@ -312,4 +361,10 @@ h2 {
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+.hide-lg-up{
+  @media only screen and (min-width: $large) {
+    display: none !important;
+  }
 }

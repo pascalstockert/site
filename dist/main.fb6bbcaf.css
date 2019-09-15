@@ -4,6 +4,10 @@
   background-color: #271C23;
 }
 
+.color-accent-background {
+  background-color: #3c3232;
+}
+
 .color-accent-dark {
   background-color: #992B43;
 }
@@ -59,6 +63,10 @@
   margin-top: 20px;
 }
 
+.display-flex {
+  display: flex;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -90,7 +98,7 @@ h1, h2, h3, h4, h5, h6, div, p {
 
 h1 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
-  font-size: 45px;
+  font-size: 45px !important;
   font-weight: 100;
 }
 
@@ -98,9 +106,52 @@ h2 {
   font-family: "Source Sans Pro ExtraLightLight", sans-serif;
   font-size: 45px;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
 }
 
+.background-layer {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wave {
+  opacity: 0.6;
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  width: 4000px;
+  height: 4000px;
+  margin-left: -2000px;
+  margin-top: -3300px;
+  transform-origin: 50% 49%;
+  border-radius: 40%;
+  animation: drift 50000ms infinite linear;
+}
+
+.wave.-three {
+  opacity: 1;
+  height: 3900px;
+  width: 3800px;
+  border-radius: 48%;
+  animation: drift 55000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 75000ms infinite linear;
+}
+
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
 .button .material-icons {
   font-size: 35px;
   color: white;
@@ -206,11 +257,16 @@ h2 {
 }
 
 .infoCard {
-  width: 260px;
+  width: 250px;
   height: 530px;
   margin-top: 20px;
   background-color: #271C23;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.ext {
+  margin: 0 0 0 20px !important;
+  height: 810px !important;
 }
 
 .slideCard {
@@ -277,7 +333,7 @@ h2 {
 }
 
 .welcomeCard {
-  width: 260px;
+  width: 250px;
   height: 260px;
   background: radial-gradient(ellipse at top left, #412736 0%, #992b43 21%, #c45744 49%, #e38946 76%, #f5bf51 100%);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -287,7 +343,7 @@ h2 {
   color: #F9F9F9;
   text-align: center;
   vertical-align: middle;
-  line-height: 190px;
+  line-height: 26a0px;
   width: 100%;
 }
 
@@ -310,11 +366,13 @@ h2 {
 ::-webkit-scrollbar {
   width: 40px;
   height: 5px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-button {
   width: 0px;
   height: 130px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -332,6 +390,12 @@ h2 {
 
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+@media only screen and (min-width: 1379px) {
+  .hide-lg-up {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=/main.fb6bbcaf.css.map */

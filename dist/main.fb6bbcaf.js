@@ -194,9 +194,9 @@ module.hot.accept(reloadCSS);
 
 require("../scss/style.scss");
 
-var dogePics = ['/src/img/joey1.jpg', '/src/img/joey2.jpg', '/src/img/joey3.jpg', '/src/img/joey4.jpg'];
-var foodPics = ['/src/img/food_1.jpg', '/src/img/food_2.jpg', '/src/img/food_3.jpg', '/src/img/food_4.jpg', '/src/img/food_5.jpg'];
-var barcePics = ['/src/img/barce_1.jpg', '/src/img/barce_2.jpg', '/src/img/barce_3.jpg', '/src/img/barce_4.jpg', '/src/img/barce_5.jpg', '/src/img/barce_6_1.jpg', '/src/img/barce_6_2.jpg', '/src/img/barce_6_3.jpg', '/src/img/barce_7.jpg', '/src/img/barce_8.jpg', '/src/img/barce_9.jpg', '/src/img/barce_10.jpg', '/src/img/barce_11.jpg', '/src/img/barce_12.jpg', '/src/img/barce_13.jpg'];
+var dogePics = ['./src/img/joey1.jpg', './src/img/joey2.jpg', './src/img/joey3.jpg', './src/img/joey4.jpg'];
+var foodPics = ['./src/img/food_1.jpg', './src/img/food_2.jpg', './src/img/food_3.jpg', './src/img/food_4.jpg', './src/img/food_5.jpg'];
+var barcePics = ['./src/img/barce_1.jpg', './src/img/barce_2.jpg', './src/img/barce_3.jpg', './src/img/barce_4.jpg', './src/img/barce_5.jpg', './src/img/barce_6_1.jpg', './src/img/barce_6_2.jpg', './src/img/barce_6_3.jpg', './src/img/barce_7.jpg', './src/img/barce_8.jpg', './src/img/barce_9.jpg', './src/img/barce_10.jpg', './src/img/barce_11.jpg', './src/img/barce_12.jpg', './src/img/barce_13.jpg'];
 var dogeSlider = document.getElementById('carouselDoge');
 var foodSlider = document.getElementById('carouselFood');
 var barceSlider = document.getElementById('carouselBarce');
@@ -222,7 +222,7 @@ $(document).ready(function () {
       numVisible: 1,
       dist: 0,
       noWrap: true
-    });
+    }, 100);
     $('#carouselFood').carousel({
       duration: 300,
       fullWidth: true,
@@ -230,7 +230,7 @@ $(document).ready(function () {
       numVisible: 1,
       dist: 0,
       noWrap: true
-    });
+    }, 100);
     $('#carouselBarce').carousel({
       duration: 300,
       fullWidth: true,
@@ -288,7 +288,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61235" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50856" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
